@@ -33,7 +33,7 @@ class Settings:
         o.strip()
         for o in os.getenv(
             "CORS_ORIGINS",
-            "http://localhost:4200,http://127.0.0.1:4200",
+            "http://localhost:4200,http://127.0.0.1:4200,https://transcendent-hamster-fb4b72.netlify.app",
         ).split(",")
         if o.strip()
     ]
