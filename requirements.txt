@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pdfplumber
+pydantic
+python-multipart
+httpx
+numpy
+pillow
+torch
+transformers
